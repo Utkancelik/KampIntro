@@ -12,7 +12,7 @@ namespace GenericsIntro
         {
             items = new T[0];
         }
-        public void Add(T item )
+        public void Add(T item)
         {
             T[] tempArray = items; 
             items = new T[items.Length+1];
